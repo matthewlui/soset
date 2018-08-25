@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SoSet"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Convenient variable setter extensions for UIControls"
 
   s.description  = <<-DESC
@@ -40,6 +40,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SoSet/SoSet.h", "SoSet/*.swift"
   #s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
+  s.swift_version = "4.1"
 
 end
 
